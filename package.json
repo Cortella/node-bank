@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:Cortella/node-bank.git",
-  "author": "Bruno Machado <bruno.nicolau@dtidigital.com.br>",
+  "author": "Bruno Machado",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
